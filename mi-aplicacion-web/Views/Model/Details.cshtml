@@ -1,0 +1,31 @@
+@model mi_aplicacion_web.Models.Model1
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Model1</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Property1)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Property1)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Property2)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Property2)
+        </dd>
+        <!-- Add more properties as needed -->
+    </dl>
+</div>
+<div>
+    <a href="@Url.Action("Edit", new { id = Model.Id })">Edit</a> |
+    <a href="@Url.Action("Index")">Back to List</a>
+</div>
