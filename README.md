@@ -28,6 +28,3 @@ El proyecto sigue la estructura estándar de una aplicación ASP .NET Core MVC c
 
 Para ejecutar esta aplicación, necesitarás tener instalado .NET Core. Luego, puedes clonar este repositorio y ejecutar el comando `dotnet run` en la raíz del proyecto.
 
-## Licencia
-
-Este proyecto está bajo la licencia MIT.
